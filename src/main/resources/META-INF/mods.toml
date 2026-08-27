@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="universalspawner"
+version="1.0.0"
+displayName="Universal NPC Spawner"
+authorList="MKAI"
+description='''Adds controlled natural spawning for Mine Piece character mobs and a Development Stone for form evolution.'''
+
+[[dependencies.universalspawner]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.10,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.universalspawner]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,24 @@
+UNIVERSAL NPC SPAWNER - FORGE 1.20.1
+
+1) Bu klasörü Forge 1.20.1 mod projesi olarak kullan.
+2) C:\universalcrew-1.20.1-v3-source projesindeki gradlew.bat ve gradle\wrapper klasörünü buraya kopyalayabilirsin.
+3) PowerShell:
+   .\copy-wrapper-and-build.ps1
+4) Jar:
+   build\libs\universal-npc-spawner-1.20.1-1.0.0.jar
+5) Jar'ı Forge 1.20.1 mods klasörüne Mine Piece ile birlikte koy.
+
+Doğal spawn:
+- Mine Piece yüklüyse otomatik çalışır.
+- minepiece namespace'indeki Mob tabanlı entity'leri tarar.
+- Projectile/efekt entity'lerini filtreler.
+- Later forms (_2_years_later, _wano_country, _onigashima) doğal spawn olmaz.
+- Luffy/Zoro/Sanji East Blue ve temel Grand Line formları çok daha nadirdir ve biyomlara göre sınırlandırılır.
+
+Geliştirme Taşı:
+- Luffy: East Blue -> Luffy -> 2 Years Later -> Wano
+- Zoro: East Blue -> Zoro -> 2 Years Later -> Onigashima
+- Sanji: East Blue -> Sanji -> 2 Years Later -> Onigashima
+- Law: Grand Line -> Seven Warlords -> Wano (ID mevcutsa)
+
+Geliştirme sırasında entity UUID ve persistent NBT korunur; bu nedenle Universal Crew sahibi/state verileri de korunur.
